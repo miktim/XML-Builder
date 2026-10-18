@@ -11,7 +11,8 @@ xembly: [https://github.com/yegor256/xembly](https://github.com/yegor256/xembly)
 simpleXml: [https://github.com/codemonstur/simplexml](https://github.com/codemonstur/simplexml)  
 . . . and others.  
   
-Package Usage (Java):  
+  
+An example of using this package(Java):
 ```java
 Node rootNode = (new Node("multistatus")).addAttr("xmlns","DAV:");
 XML xml = new XML(rootNode);
